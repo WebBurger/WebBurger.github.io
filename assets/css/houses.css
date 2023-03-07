@@ -102,3 +102,26 @@ a:hover{
     color: rgb(149, 149, 149);
   transition: color 0.5s;
 }
+
+footer{
+    background-color: #555555;
+  }
+  .footer_container{
+    width: 1440px;
+    margin: auto;
+    height: 50px;
+    margin-top: 3%;
+  }
+  
+  .footer_text{
+    display: flex;
+  }
+  
+  .footer_text > .footer_email{
+    margin-left: 10%;
+  }
+  .footer_text > .footer_company,  .footer_email{
+    margin-top: 1%;
+    font-size: 18px;
+    color: #b0b0b0;
+  }
