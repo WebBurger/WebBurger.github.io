@@ -100,5 +100,5 @@ a{
 
 a:hover{
     color: rgb(149, 149, 149);
-  transition: color 0.5s ease;
+  transition: color 0.5s;
 }
