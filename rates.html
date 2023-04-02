@@ -5,123 +5,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/rates.css">
+    <title>Комфорт Групп</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Комфорт Групп</title>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
-    <header>
-        <div class="header_container">
-            <a class="link_logo" href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a>
-            <ul class="menu_list">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="rates.html">Тарифы</a></li>
-                <li><a href="contacts.html">Информация</a></li>
-                <li><a href="houses.html">Обслуживаемые дома</a></li>
-            </ul>
-            <div class="tel_block">
-                <h4>Круглосуточная<br> диспетчерская служба</h4>
-                <a href="tel:8(863)2797828">8 (863) 279 78 28</a> <br>
-                <a href="tel:+79282797828">+7 928 279 78 28</a> <br>
-                <a href="tel:+79034063662">+7 903 406 36 62</a>
+    <div class=" d-flex justify-content-center header" style="background-color: #ffffff;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light"style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" data-bs-theme="light" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="rates.html">Тарифы</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="info.html">Информация</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="#">Обслуживаемые дома</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" href="tel:8 (863) 279 78 28" aria-current="page"><span class="material-symbols-outlined">call</span></a>
+                        </li>
+                        </ul>
+                </div>
+                
             </div>
+
+        </nav>
+    </div>
+    <table style="font-size: 15px;" class="table container mt-5 mb-5">
+        <tbody>
+            <tr>
+                <td class="col">Вид коммунальной услуги</td>
+                <td class="col">Норматив</td>
+                <td class="col">Тариф</td>
+            </tr>
+            <tr>
+                <td>Электроэнергия для населения с газовыми плитами сверх социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
+                <td rowspan="2">1 чел-96квт,<br> 2 чел-156квт,<br> 3 чел-196квт,<br> 4 чел-236квт.
+    </td>
+                <td>5,95 руб/Квт*ч</td>
+            </tr>
+            <tr>
+                <td>Электроэнергия для населения с газовыми плитами в пределах социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
+                <td>4,25 руб/Квт*ч</td>
+            </tr>
+            <tr>
+                <td>Электроэнергия для населения с электроплитами сверх социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
+                <td rowspan="2">1 чел-186квт, <br> 2 чел-246квт,<br> 3 чел- 325квт, <br> 4 чел-408квт.
+    </td>
+                <td>4,17 руб/Квт*ч</td>
+            </tr>
+            <tr>
+                <td>Электроэнергия для населения с электроплитами и в пределах социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
+                <td>2,98 руб/Квт*ч</td>
+            </tr>
+            <tr>
+                <td>Холодное водоснабжение (Постановлением Региональной службы по тарифам Ростовской области №54/38 от 18.12.2020 г)</td>
+                <td>Дома со всеми удобствами-6,5 куб.м/чел; <br> Все удобства, сидячая ванна -5,2 куб/чел
+    </td>
+                <td>45,80 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Водоотведение (Постановлением Региональной службы по тарифам Ростовской области №54/38 от 18.12.2020 г)</td>
+                <td>-</td>
+                <td>31,93 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Горячее водоснабжение (открытая система — ООО «Ростовские тепловые сети») (Постановление Региональной службы по тарифам Ростовской области №54/16 от 18.12.2020 г)</td>
+                <td rowspan="3">Дома со всеми удобствами – 3,15 куб/чел; <br> Дома все удобства,сидячая ванна -2,7 куб/чел
+                    </td>
+                <td>44,78 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Горячее водоснабжение (открытая система — АО «Теплокоммунэнерго») (Постановление Региональной службы по тарифам Ростовской области №54/21 от 18.12.2020 г)</td>
+                <td>68,54 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Горячее водоснабжение (закрытая система — АО «Теплокоммунэнерго») (Постановление Региональной службы по тарифам Ростовской области №54/76 от 18.12.2020 г)</td>
+                <td>45,80 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Тепловая энергия (ООО «Ростовские тепловые сети») (Постановление Региональной службы по тарифам Ростовской области № 54/14 от 18.12.2020 г)</td>
+                <td rowspan="2">0,0257 Гкал/кв.м</td>
+                <td>2 105,83 руб./Гкал</td>
+            </tr>
+            <tr>
+                <td>Тепловая энергия (ООО «АО «Теплокоммунэнерго») (Постановление Региональной службы по тарифам Ростовской области № 53/7 от 15.12.2020 г)</td>
+                <td>2 515,49 руб./Гкал</td>
+            </tr>
+            <tr>
+                <td>Газоснабжение с использование газовой плиты (Постановление Региональной службы по тарифам Ростовской области № 29/2  от 30.06.2021 г)</td>
+                <td rowspan="2">13 куб/чел</td>
+                <td>6,71 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Газоснабжение с использование газового нагревателя (Постановление Региональной службы по тарифам Ростовской области № 29/2  от 30.06.2021 г)</td>
+                <td>6,67 руб./м3</td>
+            </tr>
+            <tr>
+                <td>Услуги по обращению с твердыми бытовыми отходами (Постановление Региональной службы по тарифам Ростовской области № 55/5 от 18.12.2020 г)</td>
+                <td>3,08 м3/год</td>
+                <td>448,82 руб/м3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer style="background-color: #deded5;" class="container-fluid mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Информация</h5>
+          <p class="fs-6 text-start">
+            Управляющая компания ООО «Комфорт Групп» создана профессионалами в сфере эксплуатации жилой недвижимости в 2020 году.
+ООО "Комфорт Групп" – это стабильная, динамично развивающаяся компания, которая смогла доказать, что управление многоквартирными домами в ЖКХ может быть эффективным, ответственным и прозрачным.
+          </p>
         </div>
-        
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Разделы</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="index.html" style="color: #4f4f4f;">Главная</a>
+            </li>
+            <li class="mb-1">
+              <a href="rates.html" style="color: #4f4f4f;">Тарифы</a>
+            </li>
+            <li class="mb-1">
+              <a href="info.html" style="color: #4f4f4f;">Информация</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #4f4f4f;">Обслуживаемые дома</a>
+            </li>
+          </ul>
         </div>
-    </header>
-    <div class="rates_container">
-        <h1>Тарификация коммунальных услуг</h1>
-        <table class="iksweb">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">Часы работы</h5>
+          <table class="table" style="color: #4f4f4f; border-color: #666;">
             <tbody>
-                <tr>
-                    <td>Вид коммунальной услуги</td>
-                    <td>Норматив</td>
-                    <td>Тариф</td>
-                </tr>
-                <tr>
-                    <td>Электроэнергия для населения с газовыми плитами сверх социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
-                    <td rowspan="2">1 чел-96квт,<br> 2 чел-156квт,<br> 3 чел-196квт,<br> 4 чел-236квт.
-        </td>
-                    <td>5,95 руб/Квт*ч</td>
-                </tr>
-                <tr>
-                    <td>Электроэнергия для населения с газовыми плитами в пределах социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
-                    <td>4,25 руб/Квт*ч</td>
-                </tr>
-                <tr>
-                    <td>Электроэнергия для населения с электроплитами сверх социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
-                    <td rowspan="2">1 чел-186квт, <br> 2 чел-246квт,<br> 3 чел- 325квт, <br> 4 чел-408квт.
-        </td>
-                    <td>4,17 руб/Квт*ч</td>
-                </tr>
-                <tr>
-                    <td>Электроэнергия для населения с электроплитами и в пределах социальной нормы (Постановление Региональной службы по тарифам Ростовской области №60/24 от 29.12.2020г.)</td>
-                    <td>2,98 руб/Квт*ч</td>
-                </tr>
-                <tr>
-                    <td>Холодное водоснабжение (Постановлением Региональной службы по тарифам Ростовской области №54/38 от 18.12.2020 г)</td>
-                    <td>Дома со всеми удобствами-6,5 куб.м/чел; <br> Все удобства, сидячая ванна -5,2 куб/чел
-        </td>
-                    <td>45,80 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Водоотведение (Постановлением Региональной службы по тарифам Ростовской области №54/38 от 18.12.2020 г)</td>
-                    <td>-</td>
-                    <td>31,93 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Горячее водоснабжение (открытая система — ООО «Ростовские тепловые сети») (Постановление Региональной службы по тарифам Ростовской области №54/16 от 18.12.2020 г)</td>
-                    <td rowspan="3">Дома со всеми удобствами – 3,15 куб/чел; <br> Дома все удобства,сидячая ванна -2,7 куб/чел
-                        </td>
-                    <td>44,78 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Горячее водоснабжение (открытая система — АО «Теплокоммунэнерго») (Постановление Региональной службы по тарифам Ростовской области №54/21 от 18.12.2020 г)</td>
-                    <td>68,54 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Горячее водоснабжение (закрытая система — АО «Теплокоммунэнерго») (Постановление Региональной службы по тарифам Ростовской области №54/76 от 18.12.2020 г)</td>
-                    <td>45,80 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Тепловая энергия (ООО «Ростовские тепловые сети») (Постановление Региональной службы по тарифам Ростовской области № 54/14 от 18.12.2020 г)</td>
-                    <td rowspan="2">0,0257 Гкал/кв.м</td>
-                    <td>2 105,83 руб./Гкал</td>
-                </tr>
-                <tr>
-                    <td>Тепловая энергия (ООО «АО «Теплокоммунэнерго») (Постановление Региональной службы по тарифам Ростовской области № 53/7 от 15.12.2020 г)</td>
-                    <td>2 515,49 руб./Гкал</td>
-                </tr>
-                <tr>
-                    <td>Газоснабжение с использование газовой плиты (Постановление Региональной службы по тарифам Ростовской области № 29/2  от 30.06.2021 г)</td>
-                    <td rowspan="2">13 куб/чел</td>
-                    <td>6,71 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Газоснабжение с использование газового нагревателя (Постановление Региональной службы по тарифам Ростовской области № 29/2  от 30.06.2021 г)</td>
-                    <td>6,67 руб./м3</td>
-                </tr>
-                <tr>
-                    <td>Услуги по обращению с твердыми бытовыми отходами (Постановление Региональной службы по тарифам Ростовской области № 55/5 от 18.12.2020 г)</td>
-                    <td>3,08 м3/год</td>
-                    <td>448,82 руб/м3</td>
-                </tr>
+              <tr>
+                <td>Понедельник - Пятница:</td>
+                <td>8:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Перерыв:</td>
+                <td>12:00-13:00</td>
+              </tr>
             </tbody>
-        </table>
+          </table>
         </div>
-        <footer>
-            <div class="footer_container">
-                <div class="footer_text">
-            <p class="footer_company">© ООО "Комфорт Групп"</p>
-            <p class="footer_email">Электронная почта: komfort.61@mail.ru</p>
-            </div>
-        </div>
-        </footer>
-        </body>
+      </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+
+  </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+<!-- -->
+</html>
