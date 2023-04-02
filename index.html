@@ -5,140 +5,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Комфорт Групп</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <title>Комфорт Групп</title>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 
 <body>
-    <header>
-        <div class="header_container">
-            <a class="link_logo" href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a>
-            <ul class="menu_list">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="rates.html">Тарифы</a></li>
-                <li><a href="contacts.html">Информация</a></li>
-                <li><a href="houses.html">Обслуживаемые дома</a></li>
-            </ul>
-            <div class="tel_block">
-                <h4>Круглосуточная<br> диспетчерская служба</h4>
-                <a href="tel:8(863)2797828">8 (863) 279 78 28</a> <br>
-                <a href="tel:+79282797828">+7 928 279 78 28</a> <br>
-                <a href="tel:+79034063662">+7 903 406 36 62</a>
+    <div class=" d-flex justify-content-center header" style="background-color: #ffffff;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="light"style="background-color: #ffffff;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" data-bs-theme="light" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="rates.html">Тарифы</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="info.html">Информация</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" aria-current="page" href="#">Обслуживаемые дома</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                            <a class="nav-link active link" href="tel:8 (863) 279 78 28" aria-current="page"><span class="material-symbols-outlined">call</span></a>
+                        </li>
+                        </ul>
+                </div>
+                
             </div>
-        </div>
-    </header>
-    <div class="container">
-        <div class="carousel">
-            <input type="radio" id="carousel-1" name="carousel[]" checked>
-            <input type="radio" id="carousel-2" name="carousel[]">
-            <input type="radio" id="carousel-3" name="carousel[]">
-            <input type="radio" id="carousel-4" name="carousel[]">
-            <input type="radio" id="carousel-5" name="carousel[]">
-            <ul class="carousel__items">
-                <li class="carousel__item"><img src="assets/img/slider/Panorama-Rostova_na_Donu.jpg" alt=""></li>
-                <li class="carousel__item"><img src="assets/img/slider/slider2.jpg" alt=""></li>
-                <li class="carousel__item"><img src="assets/img/slider/slider3.jpg" alt=""></li>
-                <li class="carousel__item"><img src="assets/img/slider/slider4.jpg" alt=""></li>
-            </ul>
-            <div class="carousel__prev">
-                <label for="carousel-1"></label>
-                <label for="carousel-2"></label>
-                <label for="carousel-3"></label>
-                <label for="carousel-4"></label>
-            </div>
-            <div class="carousel__next">
-                <label for="carousel-1"></label>
-                <label for="carousel-2"></label>
-                <label for="carousel-3"></label>
-                <label for="carousel-4"></label>
-            </div>
-            <div class="carousel__nav">
-                <label for="carousel-1"></label>
-                <label for="carousel-2"></label>
-                <label for="carousel-3"></label>
-                <label for="carousel-4"></label>
-            </div>
-        </div>
+
+        </nav>
     </div>
-    <section class="info_block">
-        <div class="info_block_container">
-            <h5 class="info_block_h5">НАШИ ПРЕИМУЩЕСТВА</h5>
-            <div class="info_block_sec">
-                <div class="text_sec">
-                    <h3>О компании</h3>
-                    <p>Управляющая компания ООО «Комфорт Групп» создана профессионалами в сфере эксплуатации жилой
-                        недвижимости в 2020 году.
-                        ООО "Комфорт Групп" – это стабильная, динамично развивающаяся компания, которая смогла доказать,
-                        что управление многоквартирными домами в ЖКХ может быть эффективным, ответственным и прозрачным.
-                        Ежедневно заботимся о чистоте в домах, порядке во дворах, исправной работе всех инженерных
-                        систем, внедряем новые технические решения для управления домами.
-                    </p>
-                </div>
-                <div class="img_sec img_sec1">
-                    <img src="assets/img/88943.png" alt="">
-                </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel/Без имени.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel/1467644210_2.jpg" class="d-block w-100" alt="#">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel/s1.jpeg" class="d-block w-100" alt="#">
+              </div>
             </div>
-            <div class="info_block_sec">
-                <div class="img_sec img_sec2">
-                    <img src="assets/img/free-icon-playground-2204154.png" alt="">
-                </div>
-                <div class="text_sec">
-                    <h3>Наши цели</h3>
-                    <ul>
-                        <li>Высокое качество обслуживания клиентов</li>
-                        <li>Эффективность затрат и процессов при управлении объектами недвижимости</li>
-                    </ul>
-                </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+          <div class="container-fluid info_container text-center text-continer"> 
+            <h1 class="fw-bold">НАШИ ПРЕИМУЩЕСТВА</h1>
+            <h3 class="mt-5 mb-4 fw-bold">О КОМПАНИИ</h3>
+            <p>Управляющая компания ООО «Комфорт Групп» создана профессионалами в сфере эксплуатации жилой недвижимости в 2020 году. <br> ООО "Комфорт Групп" – это стабильная, динамично развивающаяся компания, которая смогла доказать, что управление многоквартирными домами в ЖКХ может быть эффективным, ответственным и прозрачным. Ежедневно заботимся о чистоте в домах, порядке во дворах, исправной работе всех инженерных систем, внедряем новые технические решения для управления домами.</p>
+            <h3 class="mt-5 mb-4 fw-bold">НАШИ ЦЕЛИ</h3>
+                <p>• Высокое качество обслуживания клиентов</p>
+                <p>• Эффективность затрат и процессов при управлении объектами недвижимости</p>
+            <h3 class="mt-5 mb-4 fw-bold">НАШИ УСЛУГИ</h3>
+                <p>• Инженерное и эксплуатационное обслуживание</p>
+                <p>• Обеспечение объектов недвижимости коммунальными ресурсами</p>
+                <p>• Санитарное обслуживание и благоустройство объектов недвижимости</p>
+                <p>• Круглосуточная диспетчерская служба для приема аварийных сообщений</p>
+                <p>• Контакт-центр</p>
+                <p>• Расчетный центр</p>
+                <p>• Дополнительные услуги</p>
+            <h3 class="mt-5 mb-4 fw-bold">НАШИ ОТЛИЧИЯ ОТ КОНКУРЕНТОВ</h3>
+                <p>• Мы предлагаем высокое качество стандартов клиентского обслуживания 24/7</p>
+                <p>• Мы уделяем максимальное внимание автоматизации процессов и технологичность во всем</p>
+                <p>• Мы – сильная команда, имеющая серьезный опыт работы в области управления жилой недвижимостью</p>
 
+</div>
+<!-- Remove the container if you want to extend the Footer to full width. -->
 
-            </div>
-            <div class="info_block_sec">
-                <div class="text_sec">
-                    <h3>Наши услуги</h3>
-                    <ul>
-                        <li>Инженерное и эксплуатационное обслуживание</li>
-                        <li>Обеспечение объектов недвижимости коммунальными ресурсами</li>
-                        <li>Санитарное обслуживание и благоустройство объектов недвижимости</li>
-                        <li>Круглосуточная диспетчерская служба для приема аварийных сообщений</li>
-                        <li>Контакт-центр</li>
-                        <li>Расчетный центр</li>
-                        <li>Дополнительные услуги</li>
-                    </ul>
-                </div>
-                <div class="img_sec img_sec3">
-                    <img src="assets/img/city-svgrepo-com (1).png" alt="">
-                </div>
-
-            </div>
-            <div class="info_block_sec">
-                <div class="img_sec img_sec4">
-                    <img src="assets/img/hot-air-balloon-svgrepo-com.png" alt="">
-                </div>
-                <div class="text_sec">
-                    <h3>Наши отличия от конкурентов</h3>
-                    <ul>
-                        <li>Мы предлагаем высокое качество стандартов клиентского обслуживания 24/7</li>
-                        <li>Мы уделяем максимальное внимание автоматизации процессов и технологичность во всем</li>
-                        <li>Мы – сильная команда, имеющая серьезный опыт работы <br> в области управления жилой недвижимостью</li>
-                    </ul>
-            </div>
+    <footer style="background-color: #deded5;" class="container-fluid mt-5">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Информация</h5>
+          <p class="fs-6 text-start">
+            Управляющая компания ООО «Комфорт Групп» создана профессионалами в сфере эксплуатации жилой недвижимости в 2020 году.
+ООО "Комфорт Групп" – это стабильная, динамично развивающаяся компания, которая смогла доказать, что управление многоквартирными домами в ЖКХ может быть эффективным, ответственным и прозрачным.
+          </p>
         </div>
-    </section>
-    <footer>
-        <div class="footer_container">
-            <div class="footer_text">
-        <p class="footer_company">© ООО "Комфорт Групп"</p>
-        <p class="footer_email">Электронная почта: komfort.61@mail.ru</p>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">Разделы</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="index.html" style="color: #4f4f4f;">Главная</a>
+            </li>
+            <li class="mb-1">
+              <a href="rates.html" style="color: #4f4f4f;">Тарифы</a>
+            </li>
+            <li class="mb-1">
+              <a href="info.html" style="color: #4f4f4f;">Информация</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #4f4f4f;">Обслуживаемые дома</a>
+            </li>
+          </ul>
         </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-1" style="letter-spacing: 2px; color: #818963;">Часы работы</h5>
+          <table class="table" style="color: #4f4f4f; border-color: #666;">
+            <tbody>
+              <tr>
+                <td>Понедельник - Пятница:</td>
+                <td>8:00 - 17:00</td>
+              </tr>
+              <tr>
+                <td>Перерыв:</td>
+                <td>12:00-13:00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    </footer>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+<!-- End of .container -->
+    
+  
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
 </body>
-
+<!-- -->
 </html>
